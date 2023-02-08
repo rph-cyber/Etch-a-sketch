@@ -1,0 +1,56 @@
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#etch {
+  margin-bottom: 2rem;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.box {
+    border: 1px solid red;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+
+
+
+
+  #container {
+    width: 300px;
+    height: 300px;
+  
+  
+  }
+  
+ #container>div {
+    
+    height: 25px;
+  }
+
+
+#blabla {
+  display: flex;
+  margin-top: 1rem;
+  font-weight: bolder;
+  font-size: 32px;
+  
+}
+
+.blue {
+  background-color:  blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
